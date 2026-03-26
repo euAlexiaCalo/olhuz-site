@@ -1,0 +1,25 @@
+# Dependências
+node_modules/
+dist/
+build/
+
+# Logs e arquivos de sistema
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+
+# Configurações de editores/IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Variáveis de ambiente
+.env
+.env.local
+
+# Pasta de cache de ferramentas de build (Sass, etc)
+.sass-cache/
+.parcel-cache/
