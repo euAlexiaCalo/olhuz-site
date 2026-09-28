@@ -1,0 +1,128 @@
+.register-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+    min-height: 100vh;
+}
+
+.register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.register-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    max-width: 500px;
+    padding: 40px 30px;
+}
+
+.register-container:nth-child(1) .register-content {
+    gap: 40px;
+    justify-content: flex-start;
+    padding-top: 180px;
+}
+
+.register-container:nth-child(1) .register-content h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #1A3672;
+}
+
+.register-container:nth-child(1) .register-content div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.register-container:nth-child(1) .register-content div:nth-child(1) p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.register-summary {
+    font-size: 20px;
+    font-weight: 500;
+    color: #1A3672;
+    cursor: pointer;
+    margin-bottom: 24px;
+}
+
+.register-resources-list {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.register-resources-list li div {
+    display: flex;
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 8px !important;
+}
+
+.register-resources-list strong {
+    font-size: 18px;
+    font-weight: 500;
+    color: #1A3672;
+}
+
+.register-resources-list p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #4E4E4E;
+}
+
+.register-content .icon-check {
+    width: 24px;
+    height: 24px;
+    color: #1A3672;
+}
+
+.register-container:nth-child(2) {
+    background-color: white;
+}
+
+.register-container:nth-child(2) .register-content {
+    gap: 14px;
+    justify-content: center;
+}
+
+.register-container:nth-child(2) .register-content h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 26px;
+    color: #383838;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.register-inputs #email {
+    text-transform: lowercase;
+}
+
+.register-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.alternative-register {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+}
