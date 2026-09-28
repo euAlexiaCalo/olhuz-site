@@ -1,0 +1,235 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+    width: 100%;
+}
+
+.home-hero {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px 90px 20px;
+}
+
+.home-hero > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 1500px;
+    gap: 100px;
+}
+
+.home-hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    text-align: left;
+}
+
+.home-hero-text > h1 {
+    font-size: 48px;
+    font-weight: 700;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    -webkit-background-clip: text;
+    background: linear-gradient(to right, #002855, #0056b3);
+    background-clip: text;
+    line-height: 3.4rem;
+}
+
+.home-hero-text > p {
+    font-size: 20px;
+    color: rgb(60, 60, 60);
+    line-height: 1.5rem;
+}
+
+.home-hero-text > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 24px;
+}
+
+.home-hero-text div > p {
+    font-size: 18px;
+    color: rgb(60, 60, 60);
+    white-space: nowrap;
+}
+
+.home-hero img {
+    width: 460px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.home-why {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+    width: 100%;
+    padding: 90px 20px;
+    background-color: #f0f0f0;
+}
+
+.home-why > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1500px;
+    gap: 100px;
+}
+
+.home-why h2 {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    color: #002855;
+    line-height: 2.6rem;
+}
+
+.home-why > div > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 32px;
+}
+
+.home-why > div > div > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+    padding: 32px 24px;
+    border-radius: 16px;
+}
+
+.home-why > div > div > div:nth-child(1) {
+    text-align: left;
+    background-color: white;
+    border: 2px solid #e5e4e7;
+}
+
+.home-why > div > div > div:nth-child(1) > h3 {
+    color: #002855;
+}
+
+.home-why > div > div > div:nth-child(1) > p {
+    color: #686868;
+}
+
+.home-why > div > div > div:nth-child(2) {
+    color: white;
+    text-align: left;
+    background-color: #041d3a;
+    border: 2px solid #fad02c;
+}
+
+.volume-icon, .eye-icon {
+    padding: 10px;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.volume-icon {
+    color: #d12020;
+    background-color: #fac8c8;
+    
+}
+
+.eye-icon {
+    color: #041d3a;
+    background-color: #fad02c;
+}
+
+.home-resources {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+    width: 100%;
+    padding: 80px 20px 90px 20px;
+}
+
+.home-resources > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1500px;
+    gap: 100px;
+}
+
+.home-resources h2 {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    color: #002855;
+    line-height: 2.6rem;
+}
+
+.home-resources > div > ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    width: 100%;
+    max-width: 1500px;
+    gap: 32px;
+}
+
+.home-feedbacks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+    width: 100%;
+    padding: 80px 20px 90px 20px;
+    background-color: #052d5c;
+}
+
+.home-feedbacks > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1500px;
+    gap: 100px;
+}
+
+.home-feedbacks h2 {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 2.6rem;
+    color: white;
+}
+
+.home-feedbacks > div > ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    align-items: stretch;
+    width: 100%;
+    max-width: 1500px;
+    gap: 32px;
+}
+
+.home-feedbacks ul > li {
+    height: 100%;
+    display: flex;
+}
