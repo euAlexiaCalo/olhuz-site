@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, useEffect, type ReactNode } from "react";
+import { createContext, useContext, useState, useEffect, type ReactNode } from "react";
 import { STORAGE_KEYS } from "../storage/storageKeys";
 
 // Usuário que a api retorna
