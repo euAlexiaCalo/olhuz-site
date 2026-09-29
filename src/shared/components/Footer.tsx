@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import AppleLogo from "../../assets/appleLogo.svg";
-import GooglePlayLogo from "../../assets/GooglePlayicon.png";
+import GooglePlayLogo from "../../assets/googlePlayIcon.png";
 
 export function Footer() {
     return (
